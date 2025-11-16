@@ -1,17 +1,10 @@
 
-export enum ActivityLevel {
-  Low = 'low',
-  Moderate = 'moderate',
-  High = 'high',
-}
+import type React from 'react';
 
-export enum Gender {
-  Male = 'male',
-  Female = 'female',
-}
-
-export enum KidneyStatus {
-    Normal = 'Normal Kidney Function',
-    Moderate = 'Mild to Moderate Kidney Disease',
-    Severe = 'Severe Kidney Disease'
+export interface Calculator {
+  id: string;
+  title: string;
+  description: string;
+  icon: React.ReactNode;
+  component: React.ComponentType;
 }

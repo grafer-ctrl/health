@@ -1,10 +1,6 @@
-
-import type React from 'react';
-
-export interface Calculator {
+export interface Expense {
   id: string;
-  title: string;
   description: string;
-  icon: React.ReactNode;
-  component: React.ComponentType;
+  amount: number;
+  date: string;
 }

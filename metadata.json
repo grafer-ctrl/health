@@ -1,5 +1,5 @@
 {
-  "name": "Health Hub: Water & Kidney Calculator",
-  "description": "A modern, responsive PWA to calculate your daily water needs with hydration tracking and alarms, and to estimate your kidney health status (eGFR). Stay informed about your health with our easy-to-use tools.",
+  "name": "Expense Tracker Harian",
+  "description": "A simple application to track daily expenses against a monthly salary. Users can input their salary, add expenses, and see the remaining balance. It includes features to edit and delete expense entries.",
   "requestFramePermissions": []
 }
